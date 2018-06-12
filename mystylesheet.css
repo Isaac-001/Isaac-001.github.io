@@ -1,3 +1,5 @@
+
+<style>
 img{width:20%;
 			height:20%;
 			padding:50px;}
@@ -9,3 +11,8 @@ img{width:20%;
     overflow:hidden;
     background-color: #dddddd;}
     li{display:inline;}
+
+  p.sansserif {
+    font-family:Britannic Bold, Helvetica, sans-serif;
+}
+</style>
