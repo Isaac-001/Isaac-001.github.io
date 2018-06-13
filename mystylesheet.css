@@ -15,4 +15,67 @@ img{width:20%;
   p.sansserif {
     font-family:Britannic Bold, Helvetica, sans-serif;
 }
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #132df7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover .button2:hover{background-color: #f71f13}
+
+.button1:active .button:hover{
+  background-color: #f71f13;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1 .button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover .button2:hover {background-color: #f71f13}
+
+.button:active .button:active {
+  background-color: #f71f13;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
 </style>
