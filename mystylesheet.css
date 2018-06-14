@@ -1,6 +1,6 @@
 <style>
-img{width:20%;
-			height:20%;
+img{width:50%;
+			height:50%;
 			padding:50px;}
 
 			ul {
@@ -8,11 +8,11 @@ img{width:20%;
     margin: 0;
     padding:0;
     overflow:hidden;
-    background-color: #dddddd;}
+    background-color: white;}
     li{display:inline;}
 
-  p.sansserif {
-    font-family:Britannic Bold, Helvetica, sans-serif;
+  p.serif {
+    font-family:Rockwell, Helvetica, serif;
 }
 
 .button2 {
@@ -45,7 +45,7 @@ img{width:20%;
   box-shadow: 0 9px #999;
 }
 
-.button1:hover .button2:hover{background-color: #f71f13}
+.button2:hover{background-color: #f71f13}
 
 .button1:active .button:hover{
   background-color: #f71f13;
@@ -68,13 +68,62 @@ img{width:20%;
   box-shadow: 0 9px #999;
 }
 
-.button1:hover .button2:hover {background-color: #f71f13}
+.button1:hover  {background-color: #f71f13}
 
 .button:active .button:active {
   background-color: #f71f13;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+body {color: white;}
+div {color: black;}
 
+.button3 {
+ display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bc07aa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button3:hover  {background-color: #ffdd00}
+
+.button3:active {
+  background-color: #ffdd00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.button4 {
+ display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button4:hover  {background-color: pink}
+
+.button4:active {
+  background-color: pink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
 
 </style>
